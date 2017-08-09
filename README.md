@@ -16,7 +16,7 @@ There are 2 differents format : single precision floating point (float32) and do
 ### Number of neurons
 The number of neurons should be a strictly positive integers.
 ### Examples
-python networks_1_2_3_4.py float32 5 20 30 40
+python networks_1_2_3_4.py float32 5 20 30 40\n
 python networks_1_2_3_4.py float64 5 20 30 40
 python networks_1_2_3_4.py float32 10 40 60 80
 python networks_1_2_3_4.py float64 10 40 60 80
