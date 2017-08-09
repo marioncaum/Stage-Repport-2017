@@ -16,14 +16,9 @@ There are 2 differents format : single precision floating point (float32) and do
 ### Number of neurons
 The number of neurons should be a strictly positive integers.
 ### Examples
-python networks_1_2_3_4.py float32 5 20 30 40\n
 python networks_1_2_3_4.py float64 5 20 30 40
-python networks_1_2_3_4.py float32 10 40 60 80
-python networks_1_2_3_4.py float64 10 40 60 80
-python networks_1_2_3_4.py float32 50 200 300 400
-python networks_1_2_3_4.py float64 50 200 300 400
-python networks_1_2_3_4.py float32 500 2000 3000 4000
-python networks_1_2_3_4.py float64 500 2000 3000 4000
+    python networks_1_2_3_4.py float64 50 200 300 400
+    python networks_1_2_3_4.py float32 500 2000 3000 4000
 
 ## How to run network_5.py ?
 This program doesn't need a CUDA capable GPU. To run this program on CPU you just have to comment line 12 (theano.config.device = cuda).
@@ -77,7 +72,7 @@ python network_8.py float64 500 1000
 
 
 ## How to run network_9.py ?
-This program need a CUDA capable GPU
+This program need a CUDA capable GPU. If you comment line 16 (theano.config.device = gpu), the program will not work.
 ### Comand Line
 python network_9.py [format]
 ### Format
