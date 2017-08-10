@@ -26,7 +26,7 @@ python networks_1_2_3_4.py float32 50 200 300 400 <br />
 python networks_1_2_3_4.py float64 50 200 300 400 <br />
 python networks_1_2_3_4.py float32 500 2000 3000 4000 <br />
 python networks_1_2_3_4.py float64 500 2000 3000 4000
-### Results of the training
+### Results of training
 The results of the different networks are saved in the file named mlp_3_best.pkl. To see the accuracy you can use the program named print_monitor.py that is located in the pylearn2/scripts/ repertory of pylearn2 repertory.
 
 ## How to run network_5.py ?
@@ -42,7 +42,7 @@ The number of neurons should be a strictly positive integers.
 ### Examples
 python network_5.py float32 500 <br />
 python network_5.py float64 500
-### Results of the training
+### Results of training
 The results of the different networks are saved in the file named mlp_best.pkl. To see the accuracy you can use the program named print_monitor.py that is located in the pylearn2/scripts/ repertory of pylearn2 repertory.
 
 ## How to run network_6.py ?
@@ -58,7 +58,7 @@ The number of neurons should be a strictly positive integers.
 ### Examples
 python network_6.py float32 500 1000 <br />
 python network_6.py float64 500 1000
-### Results of the training
+### Results of training
 The results of the different networks are saved in the file named mlp_2_best.pkl. To see the accuracy you can use the program named print_monitor.py that is located in the pylearn2/scripts/ repertory of pylearn2 repertory.
 
 ## How to run network_7.py ?
@@ -74,7 +74,7 @@ The number of neurons should be a strictly positive integers.
 ### Examples
 python network_7.py float32 500 1000 <br />
 python network_7.py float64 500 1000
-### Results of the training
+### Results of training
 The results of the different networks are saved in the file named mlp_3_best.pkl. To see the accuracy you can use the program named print_monitor.py that is located in the pylearn2/scripts/ repertory of pylearn2 repertory.
 
 ## How to run network_8.py ?
@@ -90,7 +90,7 @@ The number of neurons should be a strictly positive integers.
 ### Examples
 python network_8.py float32 500 1000 <br />
 python network_8.py float64 500 1000
-### Results of the training
+### Results of training
 The results of the different networks are saved in the file named maxout_best.pkl. To see the accuracy you can use the program named print_monitor.py that is located in the pylearn2/scripts/ repertory of pylearn2 repertory.
 
 ## How to run network_9.py ?
@@ -104,6 +104,6 @@ There are 2 differents format : single precision floating point (float32) and do
 ### Examples
 python network_9.py float32 <br />
 python network_9.py float64
-### Results of the training
+### Results of training
 The results of the different networks are saved in the file named convolutional_network_best.pkl. To see the accuracy you can use the program named print_monitor.py that is located in the pylearn2/scripts/ repertory of pylearn2 repertory.
 
