@@ -12,7 +12,6 @@ from pylearn2.training_algorithms.learning_rule import Momentum, MomentumAdjusto
 
 # Importing the format in which the model will be trained
 theano.config.floatX = sys.argv[1]
-theano.config.device = cuda
 	
 # Loading the MNIST dataset
 train_set = MNIST(which_set = 'train',
