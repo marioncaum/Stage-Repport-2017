@@ -8,9 +8,10 @@
 * a CUDA capable GPU
 
 ## How to run networks_1_2_3_4.py ?
-This program doesn't need a CUDA capable GPU. To run this program on CPU you just have to comment line 15 (theano.config.device = cuda).
+This program could run on CPU but is nuch faster when executed on GPU. To run this program on GPU 
 ### Comand Line
-python networks_1_2_3_4.py [format][number of neurons of the first layer][number of neurons of the second layer][number of neurons of the third layer][number of neurons of the fourth layer]
+python networks_1_2_3_4.py [format][number of neurons of the first layer][number of neurons of the second layer]<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[number of neurons of the third layer][number of neurons of the fourth layer]
 ### Format
 There are 2 differents format : single precision floating point (float32) and double precision floating point (float64)
 ### Number of neurons
@@ -26,7 +27,6 @@ python networks_1_2_3_4.py float32 500 2000 3000 4000 <br />
 python networks_1_2_3_4.py float64 500 2000 3000 4000
 
 ## How to run network_5.py ?
-This program doesn't need a CUDA capable GPU. To run this program on CPU you just have to comment line 12 (theano.config.device = cuda).
 ### Comand Line
 python network_5.py [format][number of neurons of the first layer]
 ### Format
@@ -38,7 +38,6 @@ python network_5.py float32 500 <br />
 python network_5.py float64 500
 
 ## How to run network_6.py ?
-This program doesn't need a CUDA capable GPU. To run this program on CPU you just have to comment line 13 (theano.config.device = cuda).
 ### Comand Line
 python network_6.py [format][number of neurons of the first layer][number of neurons of the second layer]
 ### Format
@@ -51,7 +50,6 @@ python network_6.py float64 500 1000
 
 
 ## How to run network_7.py ?
-This program doesn't need a CUDA capable GPU. To run this program on CPU you just have to comment line 15 (theano.config.device = cuda).
 ### Comand Line
 python network_7.py [format][number of neurons of the first layer][number of neurons of the second layer]
 ### Format
@@ -64,7 +62,6 @@ python network_7.py float64 500 1000
 
 
 ## How to run network_8.py ?
-This program doesn't need a CUDA capable GPU. To run this program on CPU you just have to comment line 15 (theano.config.device = cuda).
 ### Comand Line
 python network_8.py [format][number of neurons of the first layer][number of neurons of the second layer]
 ### Format
@@ -77,7 +74,6 @@ python network_8.py float64 500 1000
 
 
 ## How to run network_9.py ?
-This program need a CUDA capable GPU. If you comment line 16 (theano.config.device = gpu), the program will not work.
 ### Comand Line
 python network_9.py [format]
 ### Format
